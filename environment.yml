@@ -1,0 +1,17 @@
+name: holoviz_ocean_tut
+channels:
+  - conda-forge
+  - pyviz
+dependencies:
+  - python=3.7
+  - hvplot
+  - holoviews
+  - geoviews>1.7.0
+  - datashader
+  - panel
+  - pyproj
+  - param
+  - colorcet
+  - jupyterlab=2
+  - xarray
+  - pandas
